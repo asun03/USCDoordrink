@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/user_drawer_layout"
+    tools:context=".UserDeliveryProgress">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/user_tool_bar"/>
+
+        <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/delievryProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delivery Progress"
+                    android:textSize="20sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:id="@+id/deliveryorderstatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Status"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/Delievryordertime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Time"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:id="@+id/deliveryodercompletetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Complete:"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/deliverydriverName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Driver Name:"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:id="@+id/DelievryStoreName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Store Name"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:id="@+id/DelievryStoreAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+                <TextView
+                    android:id="@+id/DelievryStorePhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order:"
+                    android:textSize="15sp"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/deliveryLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"></LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include layout="@layout/user_nav_drawer" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
