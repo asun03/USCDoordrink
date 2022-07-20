@@ -4,6 +4,8 @@ USC DoorDrink
 Team #42
 Authors: Angela Sun, Tiffany Chen, Madison Brading
 
+Note: alternate working repo can be found at https://github.com/tchen874/USCDoorDrink
+
 USCDoorDrink is a drink delivery app created by and for USC students.
 
 Store owners are able to create their stores and add their drink menus accordingly. They are also able to view their order history and current orders.
